@@ -5,6 +5,10 @@
 
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
+const brandChamonixOne = '#0d2b3e'; // Luxurious dark cyan
+const brandChamonixTwo = '#0077c9'; // Bright blue
+const brandChamonixThree = '#005293'; // Darker blue
+const brandChamonixFour = '#003359'; // Very dark blue
 
 export const Colors = {
   light: {
@@ -13,7 +17,8 @@ export const Colors = {
     tint: tintColorLight,
     icon: '#687076',
     tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    tabIconSelected: brandChamonixOne,
+    header: brandChamonixFour,
   },
   dark: {
     text: '#ECEDEE',
@@ -21,6 +26,7 @@ export const Colors = {
     tint: tintColorDark,
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    tabIconSelected: brandChamonixTwo,
+    header: brandChamonixFour,
   },
 };
